@@ -1,0 +1,50 @@
+.video {
+    min-height: 1027px;
+    padding: 65px 0;
+
+    &__title {
+        margin-bottom: 45px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 35px;
+        line-height: 35px;
+        color: #2D2D2D;
+    }
+
+    &__vrapper {
+        width: 920px;
+        height: 517px;
+        margin: 0 auto;
+        margin-bottom: 74px;
+    }
+
+    &__window {
+        display: block;
+    }
+    
+    &__servise__img {
+        margin-bottom: 30px;
+        transition: 2s;
+        opacity: 15%;
+        &:hover {
+            opacity: 100%;
+            transform: translateY(5px);
+            height: 40%;
+            transition: 2s;
+        }
+    
+    }
+
+    &__servise__title {
+        margin-bottom: 20px;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    &__servise__subtitle {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}

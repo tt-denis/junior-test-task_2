@@ -1,0 +1,120 @@
+.form {
+    padding: 60px 0 50px 0;
+    background-color: #446A82;
+    min-height: 900px;
+    &__title {
+        text-align: center;
+        font-weight: 300;
+        font-size: 35px;
+        line-height: 45px;
+        color: #FFFFFF;
+    }
+    &__btn {
+        width: 121px;
+        height: 50px;   
+        background: #FDB913;
+        border-radius: 50px;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 700;
+        color: #FFFFFF;
+        text-transform: uppercase;
+
+    }
+    &__label {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 20px;
+
+        
+        &__click {
+            margin-top: 9px;
+            display: inline-block;
+            text-transform: none;
+            
+            
+        }
+
+        input, textarea {
+            margin-top: 20px;
+            padding: 0 17px;
+            width: 540px;
+            height: 57px;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 25px;
+            border-radius: 5px;
+            border: none;
+        }
+        textarea {
+            resize: none;
+            height: 114px;
+            padding: 21px 17px 18px 17px;
+            margin-bottom: 28px;
+        }
+    }
+
+}
+.feed-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.form__check {
+    display: flex;
+    justify-content: space-between;
+    
+    input[type="checkbox"] {
+        display: none
+    }
+
+    label::before {
+        content: '';
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+    input[type="checkbox"]:checked + label::before {
+        content: '';
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        border-radius: 5px;
+        background-image: url(../../icons/Vector.svg);
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+.footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__img {
+        margin-right: 35px;
+        img {
+            width: 56px;
+            height: 72px;
+            
+        }
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+}
+
+

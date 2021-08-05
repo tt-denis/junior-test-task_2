@@ -1,0 +1,23 @@
+.pay {
+    min-height: 460px;
+    padding: 65px 0;
+    background: #F8F8F8;
+    &__title {
+        font-weight: 300;
+        font-size: 31px;
+        line-height: 45px;
+        color: #2D2D2D;
+        margin-bottom: 30px;
+    }
+    &__subtitle {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 24px;
+        color: #2D2D2D;
+    }
+    &__img {
+        img {
+            width: 100%;
+        }
+    }
+}

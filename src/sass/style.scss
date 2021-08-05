@@ -1,0 +1,17 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/promo';
+@import 'blocks/pay.scss';
+@import 'blocks/video.scss';
+@import 'blocks/couple.scss';
+@import 'blocks/slider.scss';
+@import 'blocks/form.scss';
+@import 'base/media.scss';
