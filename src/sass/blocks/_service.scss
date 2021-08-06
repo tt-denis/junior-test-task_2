@@ -1,7 +1,7 @@
 .service {
     min-height: 500px;
     padding: 50px 0;
-    &__tittle {
+    &__title {
         font-weight: 300;
         font-size: 40px;
         line-height: 55px;
@@ -14,7 +14,6 @@
             margin-bottom: 30px;
             opacity: .4;
             transition: 300ms;
-            cursor: pointer;
             &:hover {
                 transition: 500ms;
                 transform: translate(-5px, -10px);
@@ -29,7 +28,10 @@
             color: #2D2D2D;
         }
         &__subtitle {
-
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 30px;
+            color: #2D2D2D;
         }
     }
 
