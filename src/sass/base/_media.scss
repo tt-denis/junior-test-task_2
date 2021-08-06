@@ -1,87 +1,11 @@
 @media (max-width: 1600px){
-    .promo {
-        min-height: 660px;
-        padding-top: 52px;
-        &__logo {
-            margin-top: 0;
-        }
-        &__man {
-            width: 100%;
-            margin-top: 58px;
-        }
-    }
+   
 }
 
 @media (max-width: 1200px){
-    .promo {
-        background-attachment: local;
-    }
-    
-
+   
 }
 
 @media (max-width: 767px){
-    .promo {
-        padding-top: 20px;
-        &__title {
-            font-size: 32px;
-            line-height: 40px;
-        }
-        &__subtitle {
-            margin-bottom: 25px;
-        }
-        &__man {
-            margin-top: 22px;
-        }
-    }
-    .pay {
-        padding: 40px 0;
-        &__title {
-            font-size: 25px;
-            line-height: 35px;
-            margin-bottom: 20px;
-        }
-    }
-    .video {
-        padding: 40px 0;
-        height: 350px;
-        &__title {
-            font-size: 25px;
-            line-height: 30px;
-            margin-bottom: 4px;
-        }
-        &__window {
-            iframe {
-                height: 164px;
-                width: 294px;
-            }
-        }
-        &__vrapper {
-            width: 294px;
-            height: 600px;
-        }
-        .video__servise__title {
-            font-size: 20px;
-            line-height: 30px;
-        }
-        &__servise__subtitle{
-            font-size: 14px;
-            line-height: 20px;
-            &__servise__subtitle{
-                font-size: 14px;
-                line-height: 20px;
-            }
-            &__servise__img {
-                margin-bottom: 20px;
-                transition: 2s;
-                opacity: 100%;
-            &:hover {
-                opacity: 100%;
-                transform: translateY(5px);
-                height: 40%;
-            }
-        }
-       
-    }
-}   
+    
 }

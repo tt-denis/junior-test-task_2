@@ -1,0 +1,24 @@
+.img__man {
+    display: none;
+}
+.man {
+    background: url(../../img/img-side1_2_bg.jpg)center (center/cover) no-repeat;
+    padding: 75px 0;
+    min-height: 650px;
+    &__text {
+        background-color: #2FD2B0;
+        h2 {
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 55px;
+            color: #ffffff;
+            margin-bottom: 35px;
+        }
+        &__descr {
+            font-weight: 300;
+            font-size: 19px;
+            line-height: 30px;
+            color: #ffffff;
+        }
+    }
+}

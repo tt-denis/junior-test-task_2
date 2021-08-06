@@ -1,45 +1,43 @@
 .promo {
-    min-height: 800px;
-    padding-top: 117px;
-    background: url(../img/intro-bg.jpg) center (center/cover) no-repeat;
+    min-height: 850px;
+    background: url(../../img/bg_1.jpg) center (center/cover) no-repeat;
     background-attachment: fixed;
-
+    padding: 50px 0 190px 0;
     &__logo {
-        margin: 13px 0 42px 0;
-        display: block;
-        a {
-            display: inline-block;
-        }
-
-    }
-    &__man {
-        width: 100%;
+        margin-bottom: 107px;
+        cursor: pointer;
     }
     &__title {
         margin-bottom: 20px;
         font-weight: 300;
-        font-size: 44px;
-        line-height: 45px;
-        color: #FFFFFF;
-
-        }
+        font-size: 45px;
+        line-height: 55px;
+        color: #ffffff;
+    }
     &__subtitle {
         margin-bottom: 30px;
         font-weight: 300;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 30px;
-        color: #FFFFFF;
-        
+        color: #ffffff;
     }
     &__btn {
-        width: 200px;
+        width: 190px;
         height: 50px;
-        background: #FDB913;
-        border-radius: 50px;
+        background: #2FD2B0;
+        border-radius: 5px;
+        font-weight: 700;
         font-size: 14px;
         line-height: 14px;
-        font-weight: 700;
-        color: #FFFFFF;
         text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+        transition: 300ms;
+        &:hover {
+            background: #07b48f;
+            transition: 500ms;
+            transform: translatey(-5px);
+            
+        }
     }
 }

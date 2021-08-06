@@ -3,15 +3,13 @@
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1110px;
     margin: 0 auto;
 }
 
 
 @import 'blocks/promo';
-@import 'blocks/pay.scss';
-@import 'blocks/video.scss';
-@import 'blocks/couple.scss';
-@import 'blocks/slider.scss';
-@import 'blocks/form.scss';
-@import 'base/media.scss';
+@import 'blocks/service';
+@import 'blocks/man';
+@import 'blocks/clients';
+@import 'blocks/calendar'
